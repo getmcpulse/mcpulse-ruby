@@ -15,12 +15,17 @@ Gem::Specification.new do |spec|
   # left out — it is published verbatim on rubygems.org and scraped from there.
   spec.authors = ['MCPulse']
   spec.license = 'MIT'
-  spec.homepage = 'https://github.com/getmcpulse/mcpulse-ruby'
+  # The product site, not the repo: rubygems.org publishes this as the gem's
+  # homepage link, and that is the page the authority should land on. Source and
+  # issues are named explicitly below rather than derived from it.
+  spec.homepage = 'https://getmcpulse.com'
   spec.required_ruby_version = '>= 3.0'
 
   spec.metadata = {
-    'source_code_uri' => spec.homepage,
-    'bug_tracker_uri' => "#{spec.homepage}/issues",
+    'homepage_uri' => spec.homepage,
+    'documentation_uri' => 'https://docs.getmcpulse.com',
+    'source_code_uri' => 'https://github.com/getmcpulse/mcpulse-ruby',
+    'bug_tracker_uri' => 'https://github.com/getmcpulse/mcpulse-ruby/issues',
     'rubygems_mfa_required' => 'true'
   }
 

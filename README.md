@@ -2,6 +2,8 @@
 
 Analytics for MCP servers, in Ruby.
 
+**[getmcpulse.com](https://getmcpulse.com)** · [Docs](https://docs.getmcpulse.com) · [Dashboard](https://app.getmcpulse.com)
+
 ```ruby
 require "mcpulse"
 
